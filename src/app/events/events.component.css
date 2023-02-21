@@ -11,6 +11,8 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
+    border-radius: 10px;
+   
   }
   
   #speakers .speaker .details {
