@@ -1,0 +1,25 @@
+/* events.component.css */
+.card {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: 600;
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  

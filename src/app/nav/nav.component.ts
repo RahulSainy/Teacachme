@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// import * as $ from 'jquery';
+// import 'owl.carousel';
 
 @Component({
   selector: 'app-nav',
@@ -8,8 +10,27 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
 
   constructor() { }
+  ngOnInit() {
+    window.addEventListener('scroll', this.scroll, true);
 
-  ngOnInit(): void {
+
+
+
+    
   }
 
+  ngOnDestroy() {
+    window.removeEventListener('scroll', this.scroll, true);
+  }
+
+  scroll = (): void => {
+    const header = document.getElementById('header');
+    if (header !== null) {
+      if (window.scrollY > 100) {
+        header.classList.add('header-scrolled');
+      } else {
+        header.classList.remove('header-scrolled');
+      }
+    }
+  };
 }
