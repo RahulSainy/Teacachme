@@ -10,7 +10,8 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { FAQComponent } from './faq/faq.component';
 import { ListComponent } from './events/list/list.component';
 import { DetailComponent } from './events/detail/detail.component';
-
+import { BuyTicketsComponent } from './buy-tickets/buy-tickets.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,13 +21,11 @@ import { DetailComponent } from './events/detail/detail.component';
     SponsorsComponent,
     FAQComponent,
     ListComponent,
-    DetailComponent
+    DetailComponent,
+    BuyTicketsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
