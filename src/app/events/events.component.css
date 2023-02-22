@@ -1,5 +1,3 @@
-
-
 a{
   text-decoration: nones;
 }
@@ -42,9 +40,6 @@ a{
     font-style: italic;
   }
   
-  #speakers .speaker .details .social {
-    height: 30px;
-  }
   
   #speakers .speaker .details a {
     color: #fff;
@@ -69,30 +64,7 @@ a{
     margin-bottom: 10px;
   }
   
-  #speakers-details .details .social {
-    margin-bottom: 15px;
-  }
-  
-  #speakers-details .details .social a {
-    background: #e9edfb;
-    color: #112363;
-    line-height: 1;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    padding-top: 9px;
-  }
-  
-  #speakers-details .details .social a:hover {
-    background: #f82249;
-    color: #fff;
-  }
-  
-  #speakers-details .details .social a i {
-    font-size: 18px;
-  }
+
   
   #speakers-details .details p {
     color: #112363;
