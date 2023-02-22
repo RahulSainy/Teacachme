@@ -1,8 +1,19 @@
+
+
+.container{
+  background: #000 url(https://lesbianswhotech.org/wp-content/uploads/2020/04/bg-small.jpg) left top repeat;
+
+}
+
 .navbar{
-  top: 0;
-position: sticky;
-z-index: 1000;
-width: 100%;
-height: 10vh;
-background-color: #091233ed;
+  top: 1px;
+  position: sticky;
+  z-index: 1000;
+  width: 98%;
+  height: 10vh;
+  /* background-color: rgba(89,81,255,.9); */
+  background: #000 url(https://lesbianswhotech.org/wp-content/uploads/2020/04/bg-small.jpg) left top repeat;
+  
+  margin: auto;
+  border-radius: 10px;
 }

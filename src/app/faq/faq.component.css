@@ -32,6 +32,7 @@
   
   #faq #faq-list p {
     margin-bottom: 20px;
+    color: white;
   }
   
   #faq #faq-list a.collapse {
@@ -39,64 +40,10 @@
   }
   
   #faq #faq-list a.collapsed {
-    color: #000;
+    color: #ffffff;
   }
   
   #faq #faq-list a.collapsed i::before {
     content: "\f055" !important;
-  }
-  
-  /*--------------------------------------------------------------
-  # Subscribe Section
-  --------------------------------------------------------------*/
-  
-  #subscribe {
-    padding: 60px;
-    background: url('https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png') center center no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  #subscribe:before {
-    content: "";
-    background: rgba(6, 12, 34, 0.6);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  #subscribe .section-header h2,
-  #subscribe p {
-    color: #fff;
-  }
-  
-  #subscribe input {
-    background: #fff;
-    color: #060c22;
-    border: 0;
-    outline: none;
-    margin: 0;
-    padding: 9px 20px;
-    border-radius: 50px;
-    font-size: 14px;
-  }
-  
-  #subscribe button {
-    border: 0;
-    padding: 9px 25px;
-    cursor: pointer;
-    background: #f82249;
-    color: #fff;
-    transition: all 0.3s ease;
-    outline: none;
-    font-size: 14px;
-    border-radius: 50px;
-  }
-  
-  #subscribe button:hover {
-    background: #e0072f;
   }
   

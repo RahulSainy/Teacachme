@@ -1,7 +1,7 @@
-<!-- CSS -->
 
   .container {
-      background-color: lightblue;
+      background: #000 url(https://lesbianswhotech.org/wp-content/uploads/2020/04/bg-small.jpg) left top repeat;
+color: white;
       width: 100%;
   }
   .row {
