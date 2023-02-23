@@ -5,6 +5,7 @@ import { environment } from 'src/environments/environment';
 // import { PaymentService } from './payments.service';
 
 import { AngularFireDatabase } from '@angular/fire/compat/database';
+import { PaymentService } from './payments.service';
 
 declare const Razorpay: any;
 @Component({
@@ -46,7 +47,7 @@ export class BuyTicketsComponent implements OnInit {
     handler: this.paymentCallback.bind(this)
   };
 
-  constructor(private db: AngularFireDatabase, private router: Router) { }
+  constructor(private db: AngularFireDatabase, private router: Router,private paymentService: PaymentService) { }
 
 ngOnInit(): void {
   
@@ -83,9 +84,15 @@ const payment = {
   events: this.selectedEvents,
   amount: this.calculateTotal()
 };
+
 console.log(payment)
 this.db.list('payments').push(payment).then(() => {
 this.router.navigate(['/success']);
+});
+
+console.log(payment)
+this.db.list('payments').push(payment).then(() => {
+this.router.navigate(['/success'],{ queryParams: { payment_id: payment.paymentId } });
 });
 
 // --------------------- till here ------------ 
@@ -97,22 +104,47 @@ this.router.navigate(['/success']);
     rzp.open();
   }
 
-  paymentCallback(response:any) {
-    if (response.razorpay_payment_id) {
-      const payment = {
-        paymentId: response.razorpay_payment_id,
-        name: this.name,
-        email: this.email,
-        phone: this.phone,
-        events: this.selectedEvents,
-        amount: this.calculateTotal()
-      };
-      console.log(payment)
-      this.db.list('payments').push(payment).then(() => {
-this.router.navigate(['/success']);
-});
-} else {
-alert('Payment failed');
+//   paymentCallback(response:any) {
+//     if (response.razorpay_payment_id) {
+//       const payment = {
+//         paymentId: response.razorpay_payment_id,
+//         name: this.name,
+//         email: this.email,
+//         phone: this.phone,
+//         events: this.selectedEvents,
+//         amount: this.calculateTotal()
+//       };
+//       console.log(payment)
+//       this.db.list('payments').push(payment).then(() => {
+// this.router.navigate(['/success']);
+// });
+// } else {
+// alert('Payment failed');
+// }
+// }
+
+
+
+
+
+paymentCallback(response:any) {
+  if (response.razorpay_payment_id) {
+    const payment = {
+      paymentId: response.razorpay_payment_id,
+      name: this.name,
+      email: this.email,
+      phone: this.phone,
+      events: this.selectedEvents,
+      amount: this.calculateTotal()
+    };
+    console.log(payment)
+    this.db.list('payments').push(payment).then(() => {
+      this.router.navigate(['/success'], { queryParams: { payment_id: response.razorpay_payment_id } });
+    });
+  } else {
+    alert('Payment failed');
+  }
 }
-}
+
+
 }

@@ -20,6 +20,9 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from 'src/environments/environment';
+import { TicketComponent } from './ticket/ticket.component';
+import { SuccessComponent } from './buy-tickets/success/success.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +34,9 @@ import { environment } from 'src/environments/environment';
     ListComponent,
     DetailComponent,
     BuyTicketsComponent,
+    TicketComponent,
+    SuccessComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
