@@ -4,6 +4,8 @@
     <div class="col-md-4 mb-4" *ngFor="let event of events">
       <div class="card h-100">
         <!-- <img class="card-img-top" [src]="event.image" alt="Card image cap"> -->
+
+        <img class="card-img-top" src="https://thumbs.dreamstime.com/b/information-needed-handwritten-white-background-206214313.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">{{event.title}}</h5>
           <p class="card-text">{{event.category}}</p>
@@ -11,7 +13,7 @@
           <p class="card-text">Location: {{event.location}}</p>
           <p class="card-text">Price: {{event.pricing}}</p>
           <p class="card-text">Contact: {{event.contact}}</p>
-          <a href="#" style="    position: absolute;
+          <a routerLink="/buy-tickets" style="    position: absolute;
           bottom: 13px;" class="btn btn-primary">Register</a>
         </div>
       </div>

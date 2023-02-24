@@ -28,7 +28,7 @@ a{
   
   #speakers .speaker .details h3 {
     color: #fff;
-    font-size: 22px;
+    font-size: inherit;
     font-weight: 600;
     margin-bottom: 5px;
   }
