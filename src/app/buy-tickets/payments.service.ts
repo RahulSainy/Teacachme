@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +9,7 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 export class PaymentService {
   userId!: string;
 
-  constructor(private db: AngularFireDatabase, private auth: AngularFireAuth) {
+  constructor(private db: AngularFireDatabase, private auth: AngularFireAuth, fd: AngularFirestore) {
     this.auth.authState.subscribe((user:any) => {
       if (user) this.userId = user.uid;
     });
@@ -25,4 +26,6 @@ export class PaymentService {
     };
     return this.db.list(`users/${this.userId}/payments`).push(payment);
   }
+
+
 }
