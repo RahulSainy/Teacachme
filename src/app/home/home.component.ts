@@ -13,229 +13,210 @@ export class HomeComponent implements OnInit {
   events = [
     {
       id: 1,
-      event_category: 'Technical',
-      event_name: 'Lan Gaming',
-      price:
+      category: 'Technical',
+      title: 'Lan Gaming',
+      pricing:
         'Rs 100/- per person for individual event, 300 Rs. Per Team (Max Team Size 4- PubG), 400 Rs. Per Team for group event (Max Team Size 4- Valorant)',
     },
     {
       id: 2,
-      event_category: 'Technical',
-      event_name: 'Paper Presentation',
-      price: 'Rs 100/- Per Person',
+      category: 'Technical',
+      title: 'Paper Presentation',
+      pricing: 'Rs 100/- Per Person',
     },
     {
       id: 3,
-      event_category: 'Technical',
-      event_name: 'Code hunt',
-      price: 'Rs 100/- Per Person',
+      category: 'Technical',
+      title: 'Code hunt',
+      pricing: 'Rs 100/- Per Person',
     },
     {
       id: 4,
-      event_category: 'Technical',
-      event_name: 'Assemble and Dissemble',
-      price: 'Rs 100/- Per Person',
+      category: 'Technical',
+      title: 'Assemble and Dissemble',
+      pricing: 'Rs 100/- Per Person',
     },
     {
       id: 5,
-      event_category: 'Technical',
-      event_name: 'Circuit Desiging',
-      price: 'Rs 300/- per Team (Max size 3)',
+      category: 'Technical',
+      title: 'Circuit Desiging',
+      pricing: 'Rs 300/- per Team (Max size 3)',
     },
     {
       id: 6,
-      event_category: 'Technical',
-      event_name: 'Lensense and photography workshop cum contest',
-      price: 'Rs 100/- Per Person',
+      category: 'Technical',
+      title: 'Lensense and photography workshop cum contest',
+      pricing: 'Rs 100/- Per Person',
     },
     {
       id: 7,
-      event_category: 'Technical',
-      event_name: 'Project/Model and Mega structure Competition',
-      price: 'Rs 100/- Per Person',
+      category: 'Technical',
+      title: 'Project/Model and Mega structure Competition',
+      pricing: 'Rs 100/- Per Person',
     },
     {
       id: 8,
-      event_category: 'Technical',
-      event_name: 'Art of junkies',
-      price: 'Rs 100/- Per Person',
+      category: 'Technical',
+      title: 'Art of junkies',
+      pricing: 'Rs 100/- Per Person',
     },
     {
       id: 9,
-      event_category: 'Technical',
-      event_name:
+      category: 'Technical',
+      title:
         'Robodino competition(robotics,robo race, line follower, gripper)',
-      price: 'Rs 300/- Team (Max Team size 4)',
+      pricing: 'Rs 300/- Team (Max Team size 4)',
     },
     {
       id: 10,
-      event_category: 'Mega Events/Games',
-      event_name: 'Water rocket Propulsion',
-      price: 'Rs 300/- Per Team (Team Size max 3)',
+      category: 'Mega Events/Games',
+      title: 'Water rocket Propulsion',
+      pricing: 'Rs 300/- Per Team (Team Size max 3)',
     },
     {
       id: 11,
-      event_category: 'Mega Events/Games',
-      event_name:
+      category: 'Mega Events/Games',
+      title:
         'Talent Star light(singing, dancing, acting, instrumental, poetry, mime) and band show',
-      price:
+      pricing:
         'Rs 200/- Per Person, 500/-Rs per Team (Dance Max 5 and Rs 100 per person for above 5 members), Rs 500/- per Team(Bandshow) (Max 5 and Rs 100 per person for above 5 members)',
     },
     {
       id: 12,
-      event_category: 'Mega Events/Games',
-      event_name: 'Treasure HUnt',
-      price: 'Rs 100/- Per Person',
+      category: 'Mega Events/Games',
+      title: 'Treasure HUnt',
+      pricing: 'Rs 100/- Per Person',
     },
     {
       id: 13,
-      event_category: 'Mega Events/Games',
-      event_name: 'Auto Expo',
+      category: 'Mega Events/Games',
+      title: 'Auto Expo',
+      pricing: '300'
     },
     {
       id: 14,
-      event_category: 'Mega Events/Games',
-      event_name: 'Fiesta Evening',
-      price: 'Rs 300/- per person',
+      category: 'Mega Events/Games',
+      title: 'Fiesta Evening',
+      pricing: 'Rs 300/- per person',
     },
 
     {
       id: 15,
-      event_category: 'Mega Events/Games',
-      event_name: 'Roadies Battle yard and stunt show',
-      price: 'Rs.100/- per person',
+      category: 'Mega Events/Games',
+      title: 'Roadies Battle yard and stunt show',
+      pricing: 'Rs.100/- per person',
     },
     {
       id: 16,
-      event_category: 'Mega Events/Games',
-      event_name: 'Traditional Fasion Show',
-      price: 'Rs. 300/- per person',
+      category: 'Mega Events/Games',
+      title: 'Traditional Fasion Show',
+      pricing: 'Rs. 300/- per person',
     },
     {
       id: 17,
-      event_category: 'Mega Events/Games',
-      event_name: '100 Rs Venture',
-      price: 'Rs 500/- per Team (Team Size Max 5)',
+      category: 'Mega Events/Games',
+      title: '100 Rs Venture',
+      pricing: 'Rs 500/- per Team (Team Size Max 5)',
     },
     {
       id: 18,
-      event_category: 'Cultural',
-      event_name: 'Face Painting',
-      price: 'Rs 100/- per person',
+      category: 'Cultural',
+      title: 'Face Painting',
+      pricing: 'Rs 100/- per person',
     },
     {
       id: 19,
       category: 'Cultural',
-      name: 'Flash mob and nukkad natak',
+      title: 'Flash mob and nukkad natak',
+      pricing: '300'
     },
     {
       id: 20,
       category: 'Cultural',
-      name: 'Admad show',
-      price: 'Rs 100/- per person',
+      title: 'Admad show',
+      pricing: 'Rs 100/- per person',
     },
     {
       id: 21,
       category: 'Cultural',
-      name: 'Extempore',
-      price: 'Rs 100/- per person',
+      title: 'Extempore',
+      pricing: 'Rs 100/- per person',
     },
     {
       id: 22,
       category: 'Cultural',
-      name: 'Mock Parliament',
-      price: 'Rs 100/- per person',
+      title: 'Mock Parliament',
+      pricing: 'Rs 100/- per person',
     },
     {
       id: 23,
       category: 'Cultural',
-      name: 'Mega workshop/Lecture Series',
-      price: 'Rs 200/- per person',
+      title: 'Mega workshop/Lecture Series',
+      pricing: 'Rs 200/- per person',
     },
     {
       id: 24,
       category: 'Sports',
-      name: 'Volleyball',
-      price: 'Rs 600/- per team (Max 6 members)',
+      title: 'Volleyball',
+      pricing: 'Rs 600/- per team (Max 6 members)',
     },
     {
       id: 25,
       category: 'Sports',
-      name: 'Badminton',
-      price: 'Rs 100/- single and Rs 200/- for Doubles',
+      title: 'Badminton',
+      pricing: 'Rs 100/- single and Rs 200/- for Doubles',
     },
     {
       id: 26,
       category: 'Sports',
-      name: 'Cricket',
-      price: 'Rs 1100/- per team',
+      title: 'Cricket',
+      pricing: 'Rs 1100/- per team',
     },
     {
       id: 27,
       category: 'Sports',
-      name: 'Chess',
-      price: 'Rs 100/- per person',
+      title: 'Chess',
+      pricing: 'Rs 100/- per person',
     },
     {
       id: 28,
       category: 'Sports',
-      name: 'Basketball',
-      price: 'Rs 500/- per team',
+      title: 'Basketball',
+      pricing: 'Rs 500/- per team',
     },
     {
       id: 29,
       category: 'Sports',
-      name: 'Futsal',
-      price: 'Rs 700/- per team',
+      title: 'Futsal',
+      pricing: 'Rs 700/- per team',
     },
     {
       id: 30,
       category: 'Sports',
-      name: 'Kabbadi',
-      price: 'Rs 700/- per team',
+      title: 'Kabbadi',
+      pricing: 'Rs 700/- per team',
     },
   ];
 
   constructor(private db: AngularFirestore) {}
 
   ngOnInit(): void {
-    this.events.forEach((event, index) => {
-      this.db.collection('Events').add({
-        category: event.event_category || event.category,
-        name: event.event_name || event.name,
-        price: event.price,
-      })
-      .then(() => {
-        console.log("Document updated successfully");
-      })
-      .catch(error => {
-        console.error("Error updating document: ", error);
-      });
-    });
-
-    // this.eventsCollection = this.db.collection('Events');
-    // this.eventsCollection.valueChanges().subscribe((data:any) => {
-    //   this.events = data;
-    //   // If the collection is empty, add the default events
-    //   if (this.events.length === 0) {
-    //   }
-    // });
-    // this.addDefaultEvents();
+    // this.addEvents() 
   }
-  addDefaultEvents() {
-    this.events.forEach((event, index) => {
-      const id = this.db.createId(); // Generate a new ID for the document
-      this.eventsCollection.doc(id).set({
-        category: event.event_category || event.category,
-        name: event.event_name || event.name,
-        price: event.price,
-      })
-      .then(() => {
-        console.log("Document updated successfully");
-      })
-      .catch(error => {
-        console.error("Error updating document: ", error);
-      });;
-    });
+  addEvents() {
+    this.events.forEach((event) => {
+        this.db.collection('Events').add({
+          id:event.id,
+          category: event.category,
+          title: event.title,
+          pricing: event.pricing,
+        })
+        .then(() => {
+          console.log("Document updated successfully");
+        })
+        .catch(error => {
+          console.error("Error updating document: ", error);
+        });
+      });
   }
 }
