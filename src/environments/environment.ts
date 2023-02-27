@@ -14,7 +14,7 @@ export const environment = {
     appId: "1:433190485682:web:c02578f18e41478af613ab",
     measurementId: "G-PHBMF3G0BM"
   },
-  razorpayKey: 'your-razorpay-key'
+  razorpayKey: 'rzp_test_7HdkaZ1xFGPomB'
 };
 
 
