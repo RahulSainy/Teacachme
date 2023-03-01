@@ -12,6 +12,7 @@ import { ListComponent } from './events/list/list.component';
 import { DetailComponent } from './events/detail/detail.component';
 import { BuyTicketsComponent } from './buy-tickets/buy-tickets.component';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { AngularFireModule } from '@angular/fire/compat';
@@ -40,6 +41,7 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),

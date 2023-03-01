@@ -26,12 +26,11 @@ export class ListComponent implements OnInit {
     console.log(this.category)
     // console.log(this.db.collection('items', ref => ref.where('category', '==', 'Technical')).valueChanges());
    this.db
-      // .collection("events"),(ref:any) => ref.where('category', '==' ,'Technical' )
       .collection("events")
       .get()
       .subscribe((ss:any) => {
         ss.docs.forEach((doc:any) => {
-          if(doc.data().category == this.category)
+          // if(doc.data().category == this.category)
           this.events.push(doc.data());
         });
       })
