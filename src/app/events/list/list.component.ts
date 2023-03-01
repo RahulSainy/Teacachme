@@ -23,12 +23,15 @@ export class ListComponent implements OnInit {
     ngOnInit() {
        // Get the category parameter from the URL
     this.category = this.route.snapshot.params['category'];
+    console.log(this.category)
     // console.log(this.db.collection('items', ref => ref.where('category', '==', 'Technical')).valueChanges());
    this.db
-      .collection("Events")
+      // .collection("events"),(ref:any) => ref.where('category', '==' ,'Technical' )
+      .collection("events")
       .get()
-      .subscribe((ss) => {
-        ss.docs.forEach((doc) => {
+      .subscribe((ss:any) => {
+        ss.docs.forEach((doc:any) => {
+          if(doc.data().category == this.category)
           this.events.push(doc.data());
         });
       })
