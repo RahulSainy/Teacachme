@@ -4,7 +4,8 @@
 }
 
 .navbar{
-  top: 4px;
+  font-size: larger;
+  top: 0px;
   position: sticky;
   z-index: 1000;
   width: 98%;

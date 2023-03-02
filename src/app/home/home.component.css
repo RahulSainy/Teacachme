@@ -27,11 +27,11 @@
   }
   
   #intro h1 {
-    color: #fff;
-    font-family: "Raleway", sans-serif;
-    font-size: 56px;
-    font-weight: 600;
-    text-transform: uppercase;
+    /* color: #fff;
+    font-family: "Raleway", sans-serif; */
+    font-size: xxx-large;
+    font-weight: 400;
+    /* text-transform: uppercase; */
   }
   
   #intro h1 span {
@@ -40,8 +40,9 @@
   
   #intro p {
     color: #ebebeb;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: x-large;
+    font-family: 'Aldrich';
   }
   
   
@@ -75,22 +76,17 @@
 
 
   @media only screen and (max-width: 650px){
-     #intro h1{
-      font-size: 45px;
-
-     }
+   
   #intro .intro-container{
     inset: 0 0 0;
     position: relative;
     padding: 0 12px;
     overflow: hidden;
   }
-  img{
+  /* img{
     width: 16rem;
-        }
-      #intro p{
-        font-size: 25px;
-      }
+        } */
+   
 #about{
   margin-bottom: 2%;
 }

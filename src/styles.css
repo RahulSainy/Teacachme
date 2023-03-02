@@ -4,14 +4,11 @@
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 /* Import just the specific icon(s) you need */
-@import '~@fortawesome/fontawesome-free/css/solid.css';
-@import '~@fortawesome/fontawesome-free/css/regular.css';
-@import '~@fortawesome/fontawesome-free/css/brands.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 body{
   background: #000 url(https://lesbianswhotech.org/wp-content/uploads/2020/04/bg-small.jpg) left top repeat;
@@ -50,7 +47,7 @@ a {
   h2,
   h3
   {
-    font-family: "Mynerve";
+    font-family: "Bungee";
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
@@ -76,20 +73,30 @@ a {
   }
   
   .section-header h2 {
-    font-size: 36px;
+    font-size: xxx-large;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 700;
+    font-weight: 100;
     margin-bottom: 10px;
+    
+
+    color: #6EC1E400;
+    letter-spacing: 4.01px;
+    -webkit-text-stroke-width: 3px;
+    stroke-width: 11px;
+    -webkit-text-stroke-color: #04d0ef;
+    stroke: #ffffff;
+
   }
   
   .section-header p {
     text-align: center;
     padding: 0;
     margin: 0;
-    font-size: 18px;
+    font-size: x-large;
     font-weight: 500;
     color: #bcbdc3;
+    font-family: Aldrich;
   }
   
   /* .section-with-bg {
