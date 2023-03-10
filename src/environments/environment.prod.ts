@@ -1,5 +1,9 @@
 export const environment = {
   production: true,
+  adsense: {
+    adClient: 'pub-7689491302137996',
+    show: true
+ },
   firebase: {
     apiKey: "AIzaSyDA9-Cgczgk-3SziiixoCDQbNnG6ZTSQTc",
     authDomain: "techacme-ea534.firebaseapp.com",
