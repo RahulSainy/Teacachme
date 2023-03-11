@@ -80,6 +80,10 @@ a{
 
   }
 
+  .col-lg-4 {
+    width: 23.333333%;
+}
+
 
   @media only screen and (max-width: 600px) {
   .eventboxwidth{

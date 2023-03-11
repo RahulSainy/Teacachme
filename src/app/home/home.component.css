@@ -27,11 +27,8 @@
   }
   
   #intro h1 {
-    /* color: #fff;
-    font-family: "Raleway", sans-serif; */
     font-size: xxx-large;
     font-weight: 400;
-    /* text-transform: uppercase; */
   }
   
   #intro h1 span {
@@ -83,9 +80,7 @@
     padding: 0 12px;
     overflow: hidden;
   }
-  /* img{
-    width: 16rem;
-        } */
+  
    
 #about{
   margin-bottom: 2%;
@@ -101,33 +96,7 @@
 
 
  /* ------------------------------------------------- */
-/* REGISTEr       */
 
-
-/* :root {
-  --glow-color: hsl(186 100% 69%);
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: black;
-} */
 
 .glowing-btn {
   position: relative;
