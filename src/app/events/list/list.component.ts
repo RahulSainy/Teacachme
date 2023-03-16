@@ -12,7 +12,11 @@ export class ListComponent implements OnInit {
 
   ngOnInit(): void {
     this.eventService.getEvents().subscribe(data => {
-      this.events = data.filter(event => event.category === this.eventService.selectedCategory);
+      if (this.eventService.selectedCategory) {
+        this.events = data.filter(event => event.category === this.eventService.selectedCategory);
+      } else {
+        this.events = data;
+      }
     });
   
 }

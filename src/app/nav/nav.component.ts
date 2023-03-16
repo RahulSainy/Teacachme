@@ -11,7 +11,7 @@ export class NavComponent implements OnInit {
 
   constructor() { }
   ngOnInit() {
-    window.addEventListener('scroll', this.scroll, true);
+    // window.addEventListener('scroll', this.scroll, true);
 
 
 
@@ -19,9 +19,9 @@ export class NavComponent implements OnInit {
     
   }
 
-  ngOnDestroy() {
-    window.removeEventListener('scroll', this.scroll, true);
-  }
+  // ngOnDestroy() {
+  //   window.removeEventListener('scroll', this.scroll, true);
+  // }
 
   scroll = (): void => {
     const header = document.getElementById('header');
