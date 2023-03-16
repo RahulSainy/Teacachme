@@ -24,6 +24,7 @@ import { environment } from 'src/environments/environment';
 import { TicketComponent } from './ticket/ticket.component';
 import { SuccessComponent } from './buy-tickets/success/success.component';
 import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,6 +50,7 @@ import { HomeComponent } from './home/home.component';
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireDatabaseModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

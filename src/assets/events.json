@@ -75,7 +75,7 @@
   {
     "id": 9,
     "category": "Technical",
-    "title": "Project/Model and Mega Structure Competition",
+    "title": "Project/Model and MegaStructure Competition",
     "pricing": "Rs 100/- Per Person",
     "img": "https://i.ibb.co/JFwPYwW/15.png",
     "venue": "LT-2 (EX),D1,SAC [11:00-04:00]",
@@ -101,7 +101,7 @@
   },
   {
     "id": 1,
-    "category": "Mega Event/Games",
+    "category": "MegaEvent/Games",
     "title": "Water Rocket Propulsion",
     "pricing": "Rs 300/- Per Team\n(Team Size max 3)",
     "img": "https://i.ibb.co/Pz2RDXt/3.png",
@@ -110,7 +110,7 @@
   },
   {
     "id": 2,
-    "category": "Mega Event/Games (Talent Star Light)",
+    "category": "MegaEvent/Games (Talent Star Light)",
     "title": "Singing",
     "pricing": "Rs 200/- Per Person\n",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
@@ -119,7 +119,7 @@
   },
   {
     "id": 3,
-    "category": "Mega Event/Games (Talent Star Light)",
+    "category": "MegaEvent/Games (Talent Star Light)",
     "title": "Dancing",
     "pricing": "Rs 200/- Per Person, 500/-Rs per Team Max 5 and Rs 100 per person for above 5 members",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
@@ -128,7 +128,7 @@
   },
   {
     "id": 4,
-    "category": "Mega Event/Games (Talent Star Light)",
+    "category": "MegaEvent/Games (Talent Star Light)",
     "title": "Instrumental",
     "pricing": "Rs 200/- Per Person and Rs 500/- per Team",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
@@ -137,7 +137,7 @@
   },
   {
     "id": 5,
-    "category": "Mega Event/Games (Talent Star Light)",
+    "category": "MegaEvent/Games (Talent Star Light)",
     "title": "Poetry",
     "pricing": "Rs 200/- Per Person",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
@@ -146,7 +146,7 @@
   },
   {
     "id": 6,
-    "category": "Mega Event/Games (Talent Star Light)",
+    "category": "MegaEvent/Games (Talent Star Light)",
     "title": "Mime",
     "pricing": "Rs 200/- Per Person",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
@@ -155,16 +155,16 @@
   },
   {
     "id": 7,
-    "category": "Mega Event/Games (Talent Star Light)",
+    "category": "MegaEvent/Games (Talent Star Light)",
     "title": "Band Show",
-    "pricing": "Rs 200/- Per Person and Rs 500/- per Team(Bandshow)- (Max 5 and Rs 100 per person for above 5 members)",
+    "pricing": "Rs 200/- Per Person and Rs 500/- per Team(Bandshow)- (Max 5 and Rs 100 per person forabove 5 members",
     "img": "https://i.ibb.co/KjSdzJ8/23.png",
     "venue": "AUDI{TSL}[11:00-03:00],Day 2",
     "more-details": ""
   },
   {
     "id": 8,
-    "category": "(Mega Event/Games)",
+    "category": "MegaEvent/Games",
     "title": "Treasure Hunt",
     "pricing": "Rs 100/- per person",
     "img": "https://i.ibb.co/mBrWgQ6/5.png",
@@ -173,7 +173,7 @@
   },
   {
     "id": 10,
-    "category": "(Mega Event/Games)",
+    "category": "MegaEvent/Games",
     "title": "Fiesta Evening",
     "pricing": "Rs 300/- per person",
     "img": "sad",
@@ -182,7 +182,7 @@
   },
   {
     "id": 11,
-    "category": "(Mega Event/Games)",
+    "category": "MegaEvent/Games",
     "title": "Roadies Battle Yard & Stunt Show",
     "pricing": "Rs.100/- per person",
     "img": "https://i.ibb.co/YW5mj6Q/6.png",
@@ -191,7 +191,7 @@
   },
   {
     "id": 12,
-    "category": "(Mega Event/Games)",
+    "category": "MegaEvent/Games",
     "title": "Traditional Fashion Show",
     "pricing": "Rs. 300/- per person",
     "img": "https://i.ibb.co/Xjyp936/7.png",
@@ -201,7 +201,7 @@
   },
   {
     "id": 13,
-    "category": "(Mega Event/Games)",
+    "category": "MegaEvent/Games",
     "title": "100 Rs Venture",
     "pricing": "Rs 500/- per Team (Team Size Max 5)",
     "img": "https://i.ibb.co/8D0byJ9/8.png",
@@ -212,7 +212,7 @@
     "id": 1,
     "category": "Sports Event",
     "title": "Volleyball",
-    "pricing": "Rs 600/- per team(Max 6 members)",
+    "pricing": "Rs 600/- per tem(Max 6 members",
     "img": "https://i.ibb.co/zfTf6dL/24.png",
     "venue": "1st ,3rd and 5th April Volleyball Court",
     "more-details": ""
@@ -310,7 +310,7 @@
   {
     "id": 7,
     "category": "Cultural",
-    "title": "Mega Workshop/Lecture Series",
+    "title": "MegaWorkshop/Lecture Series",
     "pricing": "Rs 200/- per person",
     "img": "https://i.ibb.co/qRx2Ty9/22.png",
     "venue": "AUDI[10:00-12:00],Day 3",

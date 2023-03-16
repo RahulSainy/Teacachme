@@ -2,7 +2,7 @@
     <div class="container">
       <div class="section-header">
         <h2>Events</h2>
-        <p [routerLink]="['/list']" [queryParams]="{category: 'technical'}"><a style="color: #f82249;"> Click below to know more </a></p>
+        <p><a style="color: #f82249;"> Click below to know more </a></p>
       </div>
      
      
@@ -10,20 +10,20 @@
     
       <div class="eventsbox">
         <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div [routerLink]="['/list']" [queryParams]="{category: 'technical'}" class="speaker" >
+          <div class="speaker" (click)="onSelect('Technical')" >
             <img src=" https://i.ibb.co/ZXPXBpT/NEW-te-CHn-ICAL-e-VENTS.png" alt="Speaker 1" class="img-fluid">
             <div class="details">
-              <h3><a [routerLink]="['/list']" [queryParams]="{category: 'technical'}">Technical Events</a></h3>
+              <h3><a>Technical Events</a></h3>
       
              
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div [routerLink]="['/list']" [queryParams]="{category: 'technical'}" class="speaker">
+          <div class="speaker" (click)="onSelect('Cultural')">
             <img src=" https://i.ibb.co/GxQBVyP/NEW-Cultural-Events.png" alt="Speaker 2" class="img-fluid">
             <div class="details">
-              <h3><a [routerLink]="['/list']" [queryParams]="{category: 'technical'}">Cultural Events</a></h3>
+              <h3><a>Cultural Events</a></h3>
      
              
             </div>
@@ -31,30 +31,30 @@
         </div>
   
         <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div [routerLink]="['/list']" [queryParams]="{category: 'technical'}" class="speaker">
+          <div class="speaker"  (click)="onSelect('MegaEvent/Games')">
             <img src="  https://i.ibb.co/jLmMHRf/MEGAEvents.png" alt="Speaker 4" class="img-fluid">
             <div class="details">
-              <h3><a [routerLink]="['/list']" [queryParams]="{category: 'technical'}">Mega Events</a></h3>
+              <h3><a>Mega Events</a></h3>
              
              
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div [routerLink]="['/list']" [queryParams]="{category: 'technical'}" class="speaker">
+          <div class="speaker"  (click)="onSelect('Sports Event')">
             <img src="https://i.ibb.co/x8fwpH7/NEW-Sports-Events.png" alt="Speaker 5" class="img-fluid">
             <div class="details">
-              <h3><a [routerLink]="['/list']" [queryParams]="{category: 'technical'}">Sports Events</a></h3>
+              <h3><a>Sports Events</a></h3>
         
              
             </div>
           </div>
         </div>
         <!-- <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div [routerLink]="['/list']" [queryParams]="{category: 'technical'}" class="speaker">
+          <div class="speaker">
             <img  src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt="Speaker 6" class="img-fluid">
             <div class="details">
-              <h3><a [routerLink]="['/list']" [queryParams]="{category: 'technical'}">Other Events</a></h3>
+              <h3><a>Other Events</a></h3>
               <p>Non autem dicta</p>
              
             </div>
