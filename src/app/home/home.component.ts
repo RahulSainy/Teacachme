@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import {
   AngularFirestore,
   AngularFirestoreCollection,
@@ -197,7 +198,8 @@ export class HomeComponent implements OnInit {
   //     pricing: 'Rs 700/- per team',
   //   },
   // ];
-
+  name!: string;
+  email!: string;
   events = [
     {
       id: 1,
@@ -482,7 +484,7 @@ export class HomeComponent implements OnInit {
     }
   ]
   
-  constructor(private db: AngularFirestore) {}
+  constructor(private db: AngularFirestore,private afdb: AngularFireDatabase,) {}
 
   ngOnInit(): void {
     // this.addEvents() 
@@ -505,4 +507,13 @@ export class HomeComponent implements OnInit {
         });
       });
   }
-}
+  onSubmit() {
+    const footerform = {
+      name:this.name,
+      email: this.email
+    }
+    this.afdb.list('payments').push(footerform).then(() => {
+  this.name="",this.email=""
+      });
+  }
+  }
