@@ -10,7 +10,7 @@ a{
   #speakers .speaker {
     position: relative;
     overflow: hidden;
-    margin: 2%;
+    margin: 5%;
     border-radius: 10px;
    
   }
@@ -19,7 +19,7 @@ a{
     background: rgba(6, 12, 34, 0.76);
     position: absolute;
     left: 0;
-    bottom: -30px;
+    bottom: -30;
     right: 0;
     text-align: center;
     padding-top: 10px;
@@ -88,6 +88,9 @@ a{
   @media only screen and (max-width: 600px) {
   .eventboxwidth{
      width: 50%;
+    }
+    #speakers .speaker .details {
+      bottom: 0px;
     }
   }
 

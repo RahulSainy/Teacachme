@@ -1,6 +1,6 @@
 #intro {
-  width: 99%;
-  background: linear-gradient( rgba(7, 10, 16, 15%), rgb(6 3 0)),url('https://oistbpl.com/images/xoriental-banner-1.jpg.pagespeed.ic.EzgXqKW4v5.jpg');
+  width: 100%;
+  background: linear-gradient( rgba(7, 10, 16, 15%), rgb(6 3 0)),url('https://gyaanarth.com/wp-content/uploads/2022/07/1549731403759.jpg');
   background-size: cover;
   background-position: center;
   height: auto;
@@ -280,7 +280,8 @@ img {
 
 @media only screen and (max-width: 650px) {
   .glowing-btn {
-    font-size: 1em;
+    /* font-size: 1em; */
+    font-size: revert;
   }
 }
 

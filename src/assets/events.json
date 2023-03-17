@@ -1,4 +1,3 @@
-
 [
   {
     "id": 1,
@@ -7,7 +6,7 @@
     "pricing": "Rs 100/ - per person",
     "img": "https://i.ibb.co/2Zt7wjC/9.png",
     "venue": "HP-Lab 1-2 & 108 TB-1,VLSI LAB",
-    "more-details": "1. Theme : conservation of nature\n2. Each entry should not be more than one person .\n3. Participants can take pic by mobile camara or digital camara.\n4. Take print of pic on glossy A4 size paper\n5. There should be a slogan in text on pic in favor of conservation of nature\n6. All entry must be done one day before event"
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 2,
@@ -16,7 +15,7 @@
     "pricing": "Rs 100/-person and 300/- per Team",
     "img": "https://i.ibb.co/2Zt7wjC/9.png",
     "venue": "HP-Lab 1-2 & 108 TB-1,VLSI LAB",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 3,
@@ -25,7 +24,7 @@
     "pricing": "Rs 100/-person for individual and 400 Rs. Per Team  (Max Team Size 5)",
     "img": "https://i.ibb.co/2Zt7wjC/9.png",
     "venue": "HP-Lab 1-2 & 108 TB-1,VLSI LAB",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 4,
@@ -34,7 +33,7 @@
     "pricing": "Rs 100/- Per Person",
     "img": "https://i.ibb.co/8KXKmQ7/10.png",
     "venue": "AU Seminar Hall [11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1YD0VU1Vx-S5avRfOP4EjGN4rYXAZN7lQ/preview"
   },
   {
     "id": 5,
@@ -43,7 +42,7 @@
     "pricing": "Rs 100/- Per Person",
     "img": "https://i.ibb.co/BycMXPP/11.png",
     "venue": "Dell Lab[11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1R-XmeVW3HlZcai8lNmFtpBQO8P1OXv1Q/preview"
   },
   {
     "id": 6,
@@ -52,7 +51,7 @@
     "pricing": "Rs 100/- Per Person",
     "img": "https://i.ibb.co/6g8LVT8/12.png",
     "venue": "C-4 & C-7 [11:00-04:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1iZrCfciejaEzhdyOx3-8EV1FHNKfbaRz/preview"
   },
   {
     "id": 7,
@@ -61,7 +60,7 @@
     "pricing": "Rs 300/- per Team\n(Max size 3)",
     "img": "https://i.ibb.co/hBTkzGW/13.png",
     "venue": "EC Seminar Hall [11:00-04:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1qMJC_yFxEubSiM80Wzxlc8pGCPOCtKQd/preview"
   },
   {
     "id": 8,
@@ -70,7 +69,7 @@
     "pricing": "Rs 100/- Per Person",
     "img": "https://i.ibb.co/SxL1YBD/14.png",
     "venue": "IDEA Lab [11:00-02:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1QCAUeC2OSJcVH6_MWH4fgz4C3ivoSDWk/preview"
   },
   {
     "id": 9,
@@ -79,7 +78,7 @@
     "pricing": "Rs 100/- Per Person",
     "img": "https://i.ibb.co/JFwPYwW/15.png",
     "venue": "LT-2 (EX),D1,SAC [11:00-04:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1DMGhv36Ri5BpZbBBnPkV7-fCqOz6mMpY/preview"
   },
   {
     "id": 10,
@@ -88,7 +87,7 @@
     "pricing": "Rs.100/- Per Person",
     "img": "https://i.ibb.co/KFqnSGL/16.png",
     "venue": "30 (TB-1) [11:00-04:00],day 2",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1PeKN4gJpg3Zex7uymBeZwqrXvZU7jCTf/preview"
   },
   {
     "id": 11,
@@ -97,7 +96,7 @@
     "pricing": "Rs 300/- Team (Max Team size 4)",
     "img": "https://i.ibb.co/X4WKTyj/17.png",
     "venue": "open Area In front of Central Library & R.no 001,002 TB -1 [Dark Room]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1EMar4oLLSgN5dw8D-X9VW2tofLx6T3Bs/preview"
   },
   {
     "id": 1,
@@ -106,61 +105,61 @@
     "pricing": "Rs 300/- Per Team\n(Team Size max 3)",
     "img": "https://i.ibb.co/Pz2RDXt/3.png",
     "venue": "OCT Ground [10:00-12:00],Day 3",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 2,
-    "category": "MegaEvent/Games (Talent Star Light)",
+    "category": "MegaEvent/Games",
     "title": "Singing",
     "pricing": "Rs 200/- Per Person\n",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
     "venue": "Day 1-AUDI {TSL}[11:00-03:00], Day 2-AUDI {TSL}[11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1DsetM2mEkGu3m-WJdlGaZJTmP4x14vCr/preview"
   },
   {
     "id": 3,
-    "category": "MegaEvent/Games (Talent Star Light)",
+    "category": "MegaEvent/Games",
     "title": "Dancing",
     "pricing": "Rs 200/- Per Person, 500/-Rs per Team Max 5 and Rs 100 per person for above 5 members",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
     "venue": "Day 1-AUDI {TSL}[11:00-03:00], Day 2-AUDI {TSL}[11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1DsetM2mEkGu3m-WJdlGaZJTmP4x14vCr/preview"
   },
   {
     "id": 4,
-    "category": "MegaEvent/Games (Talent Star Light)",
+    "category": "MegaEvent/Games",
     "title": "Instrumental",
     "pricing": "Rs 200/- Per Person and Rs 500/- per Team",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
     "venue": "Day 1-AUDI {TSL}[11:00-03:00], Day 2-AUDI {TSL}[11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1DsetM2mEkGu3m-WJdlGaZJTmP4x14vCr/preview"
   },
   {
     "id": 5,
-    "category": "MegaEvent/Games (Talent Star Light)",
+    "category": "MegaEvent/Games",
     "title": "Poetry",
     "pricing": "Rs 200/- Per Person",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
     "venue": "Day 1-AUDI {TSL}[11:00-03:00], Day 2-AUDI {TSL}[11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1DsetM2mEkGu3m-WJdlGaZJTmP4x14vCr/preview"
   },
   {
     "id": 6,
-    "category": "MegaEvent/Games (Talent Star Light)",
+    "category": "MegaEvent/Games",
     "title": "Mime",
     "pricing": "Rs 200/- Per Person",
     "img": "https://i.ibb.co/Tgqc4Xm/4.png",
     "venue": "Day 1-AUDI {TSL}[11:00-03:00], Day 2-AUDI {TSL}[11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1DsetM2mEkGu3m-WJdlGaZJTmP4x14vCr/preview"
   },
   {
     "id": 7,
-    "category": "MegaEvent/Games (Talent Star Light)",
+    "category": "MegaEvent/Games",
     "title": "Band Show",
     "pricing": "Rs 200/- Per Person and Rs 500/- per Team(Bandshow)- (Max 5 and Rs 100 per person forabove 5 members",
     "img": "https://i.ibb.co/KjSdzJ8/23.png",
     "venue": "AUDI{TSL}[11:00-03:00],Day 2",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1DsetM2mEkGu3m-WJdlGaZJTmP4x14vCr/preview"
   },
   {
     "id": 8,
@@ -169,7 +168,7 @@
     "pricing": "Rs 100/- per person",
     "img": "https://i.ibb.co/mBrWgQ6/5.png",
     "venue": "abc",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 10,
@@ -178,7 +177,7 @@
     "pricing": "Rs 300/- per person",
     "img": "https://i.ibb.co/G3TShVs/21097376.jpg",
     "venue": "OCT GROUND [06:00-10:00]",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 11,
@@ -187,7 +186,7 @@
     "pricing": "Rs.100/- per person",
     "img": "https://i.ibb.co/YW5mj6Q/6.png",
     "venue": "Day1-LT-1 & OCT Ground/Road [12:00-04:00] ,Day2-OCT Road[12:00-04:00]",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 12,
@@ -197,7 +196,7 @@
     "img": "https://i.ibb.co/Xjyp936/7.png",
     "venue": "Day1-AUDI [03:00-06:00] ,Day2-OCT Ground [04:00-06:00] ",
 
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 13,
@@ -206,7 +205,7 @@
     "pricing": "Rs 500/- per Team (Team Size Max 5)",
     "img": "https://i.ibb.co/8D0byJ9/8.png",
     "venue": "IDEA Lab and Nearby area[11:00-05:00]",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 1,
@@ -215,7 +214,7 @@
     "pricing": "Rs 600/- per tem(Max 6 members",
     "img": "https://i.ibb.co/zfTf6dL/24.png",
     "venue": "1st ,3rd and 5th April Volleyball Court",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1AY_dhssxLoQ5zk2yKaw9xfAl7LR43hbK/preview"
   },
   {
     "id": 2,
@@ -224,7 +223,7 @@
     "pricing": "Rs 100/- single and Rs 200/- for Doubles",
     "img": "https://i.ibb.co/0Fbb7YK/27.png",
     "venue": "1st ,3rd and 5th April Badminton Court Near Boys Hostel",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1tSiBNZYVVSoPSl7xW9i95vAoZ6svwZbj/preview"
   },
   {
     "id": 3,
@@ -233,7 +232,7 @@
     "pricing": "Rs 1100/- per team",
     "img": "https://i.ibb.co/nn82mgV/30.png",
     "venue": "27-29 &31 March, 01,03,05 April [7:00-11:00 AM & 3:00-7:00 PM]",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1PQzd3GuUDpu2D6BddUUhqcWE4nalwPmV/preview"
   },
   {
     "id": 4,
@@ -242,7 +241,7 @@
     "pricing": "Rs 100/- per person",
     "img": "https://i.ibb.co/sQ24YwD/26.png",
     "venue": "5th April [108]TB-1",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1CgVH0e54ocI1zwhy5HV_NP-s9GiT_fQt/preview"
   },
   {
     "id": 5,
@@ -251,7 +250,7 @@
     "pricing": "Rs 500/- per team",
     "img": "https://i.ibb.co/bLXjDvM/29.png",
     "venue": "3rd & 5th Basket ball ground",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/14JPAo-K8YYZX-VQcopvDaO_v298iX96F/preview"
   },
   {
     "id": 6,
@@ -260,7 +259,7 @@
     "pricing": "Rs 700/- per team",
     "img": "https://i.ibb.co/wW8v9yM/25.png",
     "venue": "3rd & 5th School Ground",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1rvKgex7888j7kaI9CiakGI8dZ-xptGA_/preview"
   },
   {
     "id": 7,
@@ -269,7 +268,7 @@
     "pricing": "Rs 700/- per team",
     "img": "https://i.ibb.co/ZKGzZFN/28.png",
     "venue": "3rd & 5th Oct Ground",
-    "more-details": ""
+    "moreDetails": "https://drive.google.com/file/d/1wtLS5vjrVLZFr_UsGWkLkIuXl30Z-MUT/preview"
   },
   {
     "id": 1,
@@ -278,7 +277,7 @@
     "pricing": "Rs 100/- per person",
     "img": "https://i.ibb.co/CMSkdZb/18.png",
     "venue": "BS Foyer [11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 4,
@@ -287,7 +286,7 @@
     "pricing": "Rs 100/- per person",
     "img": "https://i.ibb.co/r2W9Lrm/19.png",
     "venue": "CE Seminar Hall[11:00-03:00]",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 5,
@@ -296,7 +295,7 @@
     "pricing": "Rs 100 Per Person",
     "img": "https://i.ibb.co/PWwLGQL/20.png",
     "venue": "CE Seminar Hall[11:00-03:00],Day-2",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 6,
@@ -305,7 +304,7 @@
     "pricing": "Rs.100 Per Person",
     "img": "https://i.ibb.co/tcpGxvr/21.png",
     "venue": "OCM Seminar Hall [11:00-04:00],Day-2",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
   {
     "id": 7,
@@ -314,6 +313,6 @@
     "pricing": "Rs 200/- per person",
     "img": "https://i.ibb.co/qRx2Ty9/22.png",
     "venue": "AUDI[10:00-12:00],Day 3",
-    "more-details": ""
+    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   }
 ]
