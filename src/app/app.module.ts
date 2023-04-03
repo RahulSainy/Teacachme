@@ -25,6 +25,10 @@ import { TicketComponent } from './ticket/ticket.component';
 import { SuccessComponent } from './buy-tickets/success/success.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FiestaComponent } from './events/fiesta/fiesta.component';
+import { StuntshowComponent } from './events/stuntshow/stuntshow.component';
+import { AutoexpoComponent } from './events/autoexpo/autoexpo.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +43,10 @@ import { HttpClientModule } from '@angular/common/http';
     TicketComponent,
     SuccessComponent,
     HomeComponent,
+    FiestaComponent,
+    StuntshowComponent,
+    AutoexpoComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

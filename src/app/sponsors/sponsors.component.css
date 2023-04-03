@@ -1,6 +1,25 @@
 
+
+.sectionsponsor-header h2 {
+  font-size: xx-large;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 10px;
+  color: #6EC1E400;
+  letter-spacing: 4.01px;
+  -webkit-text-stroke-width: 3px;
+  stroke-width: 11px;
+  -webkit-text-stroke-color: #04d0ef;
+  stroke: #ffffff;
+
+
+}
+
+
 #supporters {
-    padding: 60px 0;
+    padding: 20px 0;
+
   }
   
   #supporters .supporters-wrap {
@@ -8,23 +27,27 @@
   }
   
   #supporters .supporter-logo {
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    height: 160px;
+    /* overflow: hidden; */
+    /* height: 160px; */
   }
   
-  #supporters .supporter-logo:hover img {
+  /* #supporters .supporter-logo:hover img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-  }
+  } */
   
-  #supporters img {
+  /* #supporters img {
     transition: all 0.4s ease-in-out;
-  }
+  } */
   
+  .row{
+    justify-content:center;
+    
+  }
   /*--------------------------------------------------------------
   # F.A.Q Section
   --------------------------------------------------------------*/
@@ -72,8 +95,15 @@
   #faq #faq-list a.collapsed i::before {
     content: "\f055" !important;
   }
-  
+  .sponsor-boxwidth{
+   margin-bottom: 10px;
+   margin-top: 10px;
 
+   }
+.img1-fluid{
+  background-color: white;
+  border-radius: 10px;
+}
   /* //////////////////////////////////////// */
 
  
@@ -90,6 +120,6 @@
 
   }
   .sponsor-boxwidth{
-     width: 50%;
+     width: 44%;
     }
   }

@@ -1,66 +1,109 @@
 <section id="speakers" class="wow fadeInUp">
-    <div class="container">
-      <div class="section-header">
-        <h2>Events</h2>
-        <p><a style="color: #f82249;"> Click below to know more </a></p>
+  <div class="container">
+    <div class="section-header">
+      <h2>Events</h2>
+      <p><a style="color: #f82249;">Click below to know more</a></p>
+    </div>
+
+    <div class="eventsbox">
+      <div class="col-lg-4 col-md-6 eventboxwidth">
+        <div class="speaker" (click)="onSelect('Technical')">
+          <img
+            src=" https://i.ibb.co/ZXPXBpT/NEW-te-CHn-ICAL-e-VENTS.png"
+            alt="Speaker 1"
+            class="img-fluid"
+          />
+          <div class="details">
+            <h3>Technical Events</h3>
+          </div>
+        </div>
       </div>
-     
-     
-    
-    
-      <div class="eventsbox">
-        <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div class="speaker" (click)="onSelect('Technical')" >
-            <img src=" https://i.ibb.co/ZXPXBpT/NEW-te-CHn-ICAL-e-VENTS.png" alt="Speaker 1" class="img-fluid">
-            <div class="details">
-              <h3>Technical Events</h3>
-      
-             
-            </div>
+      <div class="col-lg-4 col-md-6 eventboxwidth">
+        <div class="speaker" (click)="onSelect('Cultural')">
+          <img
+            src=" https://i.ibb.co/GxQBVyP/NEW-Cultural-Events.png"
+            alt="Speaker 2"
+            class="img-fluid"
+          />
+          <div class="details">
+            <h3>Cultural Events</h3>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div class="speaker" (click)="onSelect('Cultural')">
-            <img src=" https://i.ibb.co/GxQBVyP/NEW-Cultural-Events.png" alt="Speaker 2" class="img-fluid">
-            <div class="details">
-              <h3>Cultural Events</h3>
-     
-             
-            </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 eventboxwidth">
+        <div class="speaker" (click)="onSelect('MegaEvent/Games')">
+          <img
+            src="  https://i.ibb.co/jLmMHRf/MEGAEvents.png"
+            alt="Speaker 4"
+            class="img-fluid"
+          />
+          <div class="details">
+            <h3>Mega Events</h3>
           </div>
         </div>
-  
-        <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div class="speaker"  (click)="onSelect('MegaEvent/Games')">
-            <img src="  https://i.ibb.co/jLmMHRf/MEGAEvents.png" alt="Speaker 4" class="img-fluid">
-            <div class="details">
-              <h3>Mega Events</h3>
-             
-             
-            </div>
+      </div>
+      <div class="col-lg-4 col-md-6 eventboxwidth">
+        <div class="speaker" (click)="onSelect('Sports Event')">
+          <img
+            src="https://i.ibb.co/x8fwpH7/NEW-Sports-Events.png"
+            alt="Speaker 5"
+            class="img-fluid"
+          />
+          <div class="details">
+            <h3>Sports Events</h3>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div class="speaker"  (click)="onSelect('Sports Event')">
-            <img src="https://i.ibb.co/x8fwpH7/NEW-Sports-Events.png" alt="Speaker 5" class="img-fluid">
-            <div class="details">
-              <h3>Sports Events</h3>
-        
-             
-            </div>
-          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="speakers" class="wow fadeInUp">
+  <div class="container">
+    <h2 style="text-align: center;">Join Us for</h2>
+
+    <div class="col-lg-12 col-md-12 fiesta">
+      <div class="speaker" routerLink="/fiesta">
+        <img
+          src="https://ik.imagekit.io/blackr/Fiestanight"
+          alt="Speaker 6"
+          class="img-fluid"
+          style="width: 25rem; margin: auto; display: flex;"
+        />
+        <div class="details">
+          <h3><a>Fiesta Night</a></h3>
+          <p>7 april</p>
         </div>
-        <!-- <div class="col-lg-4 col-md-6 eventboxwidth">
-          <div class="speaker">
-            <img  src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt="Speaker 6" class="img-fluid">
-            <div class="details">
-              <h3><a>Other Events</a></h3>
-              <p>Non autem dicta</p>
-             
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
 
-  </section>
+    <div class="eventsbox" style="justify-content: center;">
+      <div class="col-lg-4 col-md-6 eventboxwidth">
+        <div class="speaker"  routerLink="/autoexpo">
+          <img
+            src=" https://ik.imagekit.io/blackr/Autoexpo?"
+            alt="Speaker 1"
+            class="img-fluid"
+          />
+          <div class="details">
+            <h3>Auto Expo</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 eventboxwidth">
+        <div class="speaker"  routerLink="/stuntshow">
+          <img
+            src="https://ik.imagekit.io/blackr/stuntshow.jpg?updatedAt=1680455535841"
+            alt="Speaker 1"
+            class="img-fluid"
+          />
+          <div class="details">
+            <h3>Stunt Show</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

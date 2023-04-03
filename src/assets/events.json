@@ -175,7 +175,7 @@
     "category": "MegaEvent/Games",
     "title": "Fiesta Evening",
     "pricing": "Rs 300/- per person",
-    "img": "https://i.ibb.co/G3TShVs/21097376.jpg",
+    "img": "https://ik.imagekit.io/blackr/Fiestanight?updatedAt=1680453437905",
     "venue": "OCT GROUND [06:00-10:00]",
     "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   },
@@ -264,11 +264,11 @@
   {
     "id": 7,
     "category": "Sports Event",
-    "title": "Kabbadi",
+    "title": "Kabbadi (Closed)",
     "pricing": "Rs 700/- per team",
     "img": "https://i.ibb.co/ZKGzZFN/28.png",
-    "venue": "3rd & 5th Oct Ground",
-    "moreDetails": "https://drive.google.com/file/d/1wtLS5vjrVLZFr_UsGWkLkIuXl30Z-MUT/preview"
+    "venue": "2nd April Oct Ground",
+    "moreDetails": "https://ik.imagekit.io/blackr/winnerkabbadi.jfif?updatedAt=1680493443295"
   },
   {
     "id": 1,
@@ -304,15 +304,6 @@
     "pricing": "Rs.100 Per Person",
     "img": "https://i.ibb.co/tcpGxvr/21.png",
     "venue": "OCM Seminar Hall [11:00-04:00],Day-2",
-    "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
-  },
-  {
-    "id": 7,
-    "category": "Cultural",
-    "title": "MegaWorkshop/Lecture Series",
-    "pricing": "Rs 200/- per person",
-    "img": "https://i.ibb.co/qRx2Ty9/22.png",
-    "venue": "AUDI[10:00-12:00],Day 3",
     "moreDetails": "https://codepen.io/kradekidrahul/full/jOvKKZw"
   }
 ]
