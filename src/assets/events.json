@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Technical (LAN Gaming)",
+    "category": "Technical",
     "title": "Mini militia (Mobile Game)",
     "pricing": "Rs 100/ - per person",
     "img": "https://i.ibb.co/2Zt7wjC/9.png",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "category": "Technical (LAN Gaming)",
+    "category": "Technical",
     "title": "PUB-G New State (Mobile Game)",
     "pricing": "Rs 100/-person and 300/- per Team",
     "img": "https://i.ibb.co/2Zt7wjC/9.png",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "category": "Technical (LAN Gaming)",
+    "category": "Technical",
     "title": "Valorant (PC Game)",
     "pricing": "Rs 100/-person for individual and 400 Rs. Per Team  (Max Team Size 5)",
     "img": "https://i.ibb.co/2Zt7wjC/9.png",
