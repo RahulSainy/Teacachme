@@ -64,8 +64,8 @@ iframe {
 }
 
 img {
-  animation: beat 5s forwards;
-  width: 20rem;
+  /* animation: beat 5s forwards; */
+  width: 12rem;
 }
 
 @media only screen and (max-width: 650px) {
