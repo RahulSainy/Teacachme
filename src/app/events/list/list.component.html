@@ -13,13 +13,15 @@
           <p class="card-text"><b>venue & time: </b> {{event.venue}}</p>
           <p class="card-text"><b>pricing: </b> {{event.pricing}}</p>
           <p class="card-text"><b>Contact: </b>8305270785 </p>
+          <img  style="width: -webkit-fill-available;"  src="{{event.moreDetails}}" alt="">
         </div>
+        
 
-        <div class="card-footer">
+        <div *ngIf="event.title !== 'Kabbadi (Closed)' " class="card-footer">
         
           <button type="button" class="btn btn-warning text-white detailsbtn" (click)="openPdfModal(event,i)">More Details</button>
           <a href="https://m.paytm.me/ogic_nrweb">
-            <button *ngIf="event.title !== 'Kabbadi (Closed)' " class="btn btn-primary registerbtn">Register</button>
+            <button  class="btn btn-primary registerbtn">Register</button>
           </a>
         </div>
       </div>
@@ -37,7 +39,6 @@
         </button>
       </div>
       <!-- width: -webkit-fill-available; -->
-      <img  src="{{event.moreDetails}}" alt="">
       
       <div class="modal-body">
         <iframe [id]="'pdfFrame' + i" width="100%" height="500px" frameborder="0"></iframe>
